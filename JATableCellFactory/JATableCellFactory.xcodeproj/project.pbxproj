@@ -18,13 +18,29 @@
 		3268AEDB16FE9919008B77AD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3268AEDA16FE9919008B77AD /* Default-568h@2x.png */; };
 		3268AEEE16FE9CB2008B77AD /* JAObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 3268AEED16FE9CB2008B77AD /* JAObjectMapping.m */; };
 		3268AEF216FE9CCF008B77AD /* JACellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3268AEF116FE9CCF008B77AD /* JACellFactory.m */; };
+		3268AEF816FE9DD4008B77AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3268AEC416FE9918008B77AD /* UIKit.framework */; };
+		3268AEF916FE9DD4008B77AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3268AEC616FE9918008B77AD /* Foundation.framework */; };
+		3268AEFA16FE9DD4008B77AD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3268AEC816FE9918008B77AD /* CoreGraphics.framework */; };
+		3268AF0016FE9DD4008B77AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3268AEFE16FE9DD4008B77AD /* InfoPlist.strings */; };
+		3268AF0216FE9DD4008B77AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3268AF0116FE9DD4008B77AD /* main.m */; };
+		3268AF0816FE9DD4008B77AD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3268AF0716FE9DD4008B77AD /* Default.png */; };
+		3268AF0A16FE9DD4008B77AD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3268AF0916FE9DD4008B77AD /* Default@2x.png */; };
+		3268AF0C16FE9DD4008B77AD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3268AF0B16FE9DD4008B77AD /* Default-568h@2x.png */; };
+		3268AF1416FE9F5E008B77AD /* JAMapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3268AF1316FE9F5E008B77AD /* JAMapperTests.m */; };
+		3268AF2416FEA028008B77AD /* TestObjectA.m in Sources */ = {isa = PBXBuildFile; fileRef = 3268AF1F16FEA028008B77AD /* TestObjectA.m */; };
+		3268AF2516FEA028008B77AD /* TestObjectB.m in Sources */ = {isa = PBXBuildFile; fileRef = 3268AF2116FEA028008B77AD /* TestObjectB.m */; };
+		3268AF2616FEA028008B77AD /* TestObjectSubA.m in Sources */ = {isa = PBXBuildFile; fileRef = 3268AF2316FEA028008B77AD /* TestObjectSubA.m */; };
+		3268AF2716FEA06E008B77AD /* JACellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3268AEF116FE9CCF008B77AD /* JACellFactory.m */; };
+		3268AF2816FEA072008B77AD /* JAObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 3268AEED16FE9CB2008B77AD /* JAObjectMapping.m */; };
+		3268AF2B16FEA0BD008B77AD /* JAFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3268AF2A16FEA0BD008B77AD /* JAFactoryTests.m */; };
+		56018895D4004C85A086ACC6 /* libPods-JATests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D65F6D7F56FF4311A441BFE1 /* libPods-JATests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3268AEC116FE9918008B77AD /* JATableCellFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JATableCellFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3268AEC416FE9918008B77AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		3268AEC616FE9918008B77AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		3268AEC816FE9918008B77AD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3268AEC416FE9918008B77AD /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3268AEC616FE9918008B77AD /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3268AEC816FE9918008B77AD /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3268AECC16FE9919008B77AD /* JATableCellFactory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JATableCellFactory-Info.plist"; sourceTree = "<group>"; };
 		3268AECE16FE9919008B77AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3268AED016FE9919008B77AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -39,6 +55,24 @@
 		3268AEED16FE9CB2008B77AD /* JAObjectMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAObjectMapping.m; sourceTree = "<group>"; };
 		3268AEF016FE9CCF008B77AD /* JACellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JACellFactory.h; sourceTree = "<group>"; };
 		3268AEF116FE9CCF008B77AD /* JACellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JACellFactory.m; sourceTree = "<group>"; };
+		3268AEF716FE9DD4008B77AD /* JATests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JATests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3268AEFD16FE9DD4008B77AD /* JATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JATests-Info.plist"; sourceTree = "<group>"; };
+		3268AEFF16FE9DD4008B77AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3268AF0116FE9DD4008B77AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3268AF0316FE9DD4008B77AD /* JATests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JATests-Prefix.pch"; sourceTree = "<group>"; };
+		3268AF0716FE9DD4008B77AD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3268AF0916FE9DD4008B77AD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3268AF0B16FE9DD4008B77AD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3268AF1316FE9F5E008B77AD /* JAMapperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAMapperTests.m; sourceTree = "<group>"; };
+		3268AF1E16FEA028008B77AD /* TestObjectA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObjectA.h; sourceTree = "<group>"; };
+		3268AF1F16FEA028008B77AD /* TestObjectA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObjectA.m; sourceTree = "<group>"; };
+		3268AF2016FEA028008B77AD /* TestObjectB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObjectB.h; sourceTree = "<group>"; };
+		3268AF2116FEA028008B77AD /* TestObjectB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObjectB.m; sourceTree = "<group>"; };
+		3268AF2216FEA028008B77AD /* TestObjectSubA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObjectSubA.h; sourceTree = "<group>"; };
+		3268AF2316FEA028008B77AD /* TestObjectSubA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObjectSubA.m; sourceTree = "<group>"; };
+		3268AF2A16FEA0BD008B77AD /* JAFactoryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAFactoryTests.m; sourceTree = "<group>"; };
+		D65F6D7F56FF4311A441BFE1 /* libPods-JATests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JATests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0BCC7FB5F54B6BADBEBEB6 /* Pods-JATests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JATests.xcconfig"; path = "Pods/Pods-JATests.xcconfig"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +86,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3268AEF416FE9DD4008B77AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3268AEF816FE9DD4008B77AD /* UIKit.framework in Frameworks */,
+				3268AEF916FE9DD4008B77AD /* Foundation.framework in Frameworks */,
+				3268AEFA16FE9DD4008B77AD /* CoreGraphics.framework in Frameworks */,
+				56018895D4004C85A086ACC6 /* libPods-JATests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -59,8 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				3268AECA16FE9918008B77AD /* JATableCellFactory */,
+				3268AEFB16FE9DD4008B77AD /* JATests */,
 				3268AEC316FE9918008B77AD /* Frameworks */,
 				3268AEC216FE9918008B77AD /* Products */,
+				ED0BCC7FB5F54B6BADBEBEB6 /* Pods-JATests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				3268AEC116FE9918008B77AD /* JATableCellFactory.app */,
+				3268AEF716FE9DD4008B77AD /* JATests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +126,7 @@
 				3268AEC416FE9918008B77AD /* UIKit.framework */,
 				3268AEC616FE9918008B77AD /* Foundation.framework */,
 				3268AEC816FE9918008B77AD /* CoreGraphics.framework */,
+				D65F6D7F56FF4311A441BFE1 /* libPods-JATests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -127,6 +176,52 @@
 			path = Factory;
 			sourceTree = "<group>";
 		};
+		3268AEFB16FE9DD4008B77AD /* JATests */ = {
+			isa = PBXGroup;
+			children = (
+				3268AF1016FE9F40008B77AD /* Tests */,
+				3268AF1116FE9F40008B77AD /* Objects */,
+				3268AEFC16FE9DD4008B77AD /* Supporting Files */,
+			);
+			path = JATests;
+			sourceTree = "<group>";
+		};
+		3268AEFC16FE9DD4008B77AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3268AEFD16FE9DD4008B77AD /* JATests-Info.plist */,
+				3268AEFE16FE9DD4008B77AD /* InfoPlist.strings */,
+				3268AF0116FE9DD4008B77AD /* main.m */,
+				3268AF0316FE9DD4008B77AD /* JATests-Prefix.pch */,
+				3268AF0716FE9DD4008B77AD /* Default.png */,
+				3268AF0916FE9DD4008B77AD /* Default@2x.png */,
+				3268AF0B16FE9DD4008B77AD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3268AF1016FE9F40008B77AD /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3268AF1316FE9F5E008B77AD /* JAMapperTests.m */,
+				3268AF2A16FEA0BD008B77AD /* JAFactoryTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		3268AF1116FE9F40008B77AD /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				3268AF1E16FEA028008B77AD /* TestObjectA.h */,
+				3268AF1F16FEA028008B77AD /* TestObjectA.m */,
+				3268AF2016FEA028008B77AD /* TestObjectB.h */,
+				3268AF2116FEA028008B77AD /* TestObjectB.m */,
+				3268AF2216FEA028008B77AD /* TestObjectSubA.h */,
+				3268AF2316FEA028008B77AD /* TestObjectSubA.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +240,24 @@
 			name = JATableCellFactory;
 			productName = JATableCellFactory;
 			productReference = 3268AEC116FE9918008B77AD /* JATableCellFactory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3268AEF616FE9DD4008B77AD /* JATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3268AF0D16FE9DD4008B77AD /* Build configuration list for PBXNativeTarget "JATests" */;
+			buildPhases = (
+				3268AEF316FE9DD4008B77AD /* Sources */,
+				3268AEF416FE9DD4008B77AD /* Frameworks */,
+				3268AEF516FE9DD4008B77AD /* Resources */,
+				ADF487208A32403E8D1BFC8C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JATests;
+			productName = JATests;
+			productReference = 3268AEF716FE9DD4008B77AD /* JATests.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -170,6 +283,7 @@
 			projectRoot = "";
 			targets = (
 				3268AEC016FE9918008B77AD /* JATableCellFactory */,
+				3268AEF616FE9DD4008B77AD /* JATests */,
 			);
 		};
 /* End PBXProject section */
@@ -186,7 +300,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3268AEF516FE9DD4008B77AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3268AF0016FE9DD4008B77AD /* InfoPlist.strings in Resources */,
+				3268AF0816FE9DD4008B77AD /* Default.png in Resources */,
+				3268AF0A16FE9DD4008B77AD /* Default@2x.png in Resources */,
+				3268AF0C16FE9DD4008B77AD /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ADF487208A32403E8D1BFC8C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-JATests-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3268AEBD16FE9918008B77AD /* Sources */ = {
@@ -200,6 +342,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3268AEF316FE9DD4008B77AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3268AF0216FE9DD4008B77AD /* main.m in Sources */,
+				3268AF1416FE9F5E008B77AD /* JAMapperTests.m in Sources */,
+				3268AF2416FEA028008B77AD /* TestObjectA.m in Sources */,
+				3268AF2516FEA028008B77AD /* TestObjectB.m in Sources */,
+				3268AF2616FEA028008B77AD /* TestObjectSubA.m in Sources */,
+				3268AF2716FEA06E008B77AD /* JACellFactory.m in Sources */,
+				3268AF2816FEA072008B77AD /* JAObjectMapping.m in Sources */,
+				3268AF2B16FEA0BD008B77AD /* JAFactoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -207,6 +364,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				3268AECE16FE9919008B77AD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3268AEFE16FE9DD4008B77AD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3268AEFF16FE9DD4008B77AD /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -294,6 +459,32 @@
 			};
 			name = Release;
 		};
+		3268AF0E16FE9DD4008B77AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0BCC7FB5F54B6BADBEBEB6 /* Pods-JATests.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JATests/JATests-Prefix.pch";
+				INFOPLIST_FILE = "JATests/JATests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3268AF0F16FE9DD4008B77AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0BCC7FB5F54B6BADBEBEB6 /* Pods-JATests.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JATests/JATests-Prefix.pch";
+				INFOPLIST_FILE = "JATests/JATests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -313,6 +504,16 @@
 				3268AEE016FE9919008B77AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3268AF0D16FE9DD4008B77AD /* Build configuration list for PBXNativeTarget "JATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3268AF0E16FE9DD4008B77AD /* Debug */,
+				3268AF0F16FE9DD4008B77AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

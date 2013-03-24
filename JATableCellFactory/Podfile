@@ -1,0 +1,5 @@
+platform :ios
+
+target :JATests do
+    pod 'GHUnitIOS', '0.5.5'
+end
