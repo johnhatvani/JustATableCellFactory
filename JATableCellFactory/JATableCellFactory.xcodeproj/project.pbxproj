@@ -16,6 +16,8 @@
 		3268AED716FE9919008B77AD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3268AED616FE9919008B77AD /* Default.png */; };
 		3268AED916FE9919008B77AD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3268AED816FE9919008B77AD /* Default@2x.png */; };
 		3268AEDB16FE9919008B77AD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3268AEDA16FE9919008B77AD /* Default-568h@2x.png */; };
+		3268AEEE16FE9CB2008B77AD /* JAObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 3268AEED16FE9CB2008B77AD /* JAObjectMapping.m */; };
+		3268AEF216FE9CCF008B77AD /* JACellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3268AEF116FE9CCF008B77AD /* JACellFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,11 @@
 		3268AED616FE9919008B77AD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3268AED816FE9919008B77AD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3268AEDA16FE9919008B77AD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3268AEE916FE9BAC008B77AD /* JACell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JACell.h; sourceTree = "<group>"; };
+		3268AEEC16FE9CB2008B77AD /* JAObjectMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAObjectMapping.h; sourceTree = "<group>"; };
+		3268AEED16FE9CB2008B77AD /* JAObjectMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAObjectMapping.m; sourceTree = "<group>"; };
+		3268AEF016FE9CCF008B77AD /* JACellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JACellFactory.h; sourceTree = "<group>"; };
+		3268AEF116FE9CCF008B77AD /* JACellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JACellFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +85,9 @@
 		3268AECA16FE9918008B77AD /* JATableCellFactory */ = {
 			isa = PBXGroup;
 			children = (
+				3268AEEF16FE9CCF008B77AD /* Factory */,
+				3268AEEB16FE9CB2008B77AD /* Mapping */,
+				3268AEE916FE9BAC008B77AD /* JACell.h */,
 				3268AED316FE9919008B77AD /* JAAppDelegate.h */,
 				3268AED416FE9919008B77AD /* JAAppDelegate.m */,
 				3268AECB16FE9919008B77AD /* Supporting Files */,
@@ -97,6 +107,24 @@
 				3268AEDA16FE9919008B77AD /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3268AEEB16FE9CB2008B77AD /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				3268AEEC16FE9CB2008B77AD /* JAObjectMapping.h */,
+				3268AEED16FE9CB2008B77AD /* JAObjectMapping.m */,
+			);
+			path = Mapping;
+			sourceTree = "<group>";
+		};
+		3268AEEF16FE9CCF008B77AD /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				3268AEF016FE9CCF008B77AD /* JACellFactory.h */,
+				3268AEF116FE9CCF008B77AD /* JACellFactory.m */,
+			);
+			path = Factory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +195,8 @@
 			files = (
 				3268AED116FE9919008B77AD /* main.m in Sources */,
 				3268AED516FE9919008B77AD /* JAAppDelegate.m in Sources */,
+				3268AEEE16FE9CB2008B77AD /* JAObjectMapping.m in Sources */,
+				3268AEF216FE9CCF008B77AD /* JACellFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
