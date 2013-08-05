@@ -10,12 +10,8 @@ Just a table cell factory. A lightweight, thin, low coupling table cell factory,
 - Easily Integrated into existing code
 
 ####1: Get
-Getting JATableCellFactory is easy! <br />
-In fact, there are 2 ways: 
 
-I _suggest_ installing via cocoapods to integrate into your project and also clone the code as the demo, tests and AppleDoc will **not** be included in the cocoapods version.
-######Cocoapods
-######Cloning
+soon.
 
 ####2: Using
 There is are a few steps to take in order to reap the benefit of JATableCellFactory.
@@ -46,15 +42,9 @@ There is are a few steps to take in order to reap the benefit of JATableCellFact
 	`return [cellClass heightFromObject:modelObject atIndexPath:indexPath];`
 
 ####3: TODO's
-Yes, this is an ongoing endeavour of mine and here is a backlog of _if you will_ features i wish to implement:
+The project is in no way complete and here are _some_ of the things i plan on doing before 1.0
 
-- ###### Cocoapods
-Integrate this into cocoapods!
-- ###### AppleDoc
- HTML generated and Xcode integrated appledoc comments
-- ###### ViewController based mapping
- Add functionality to easily add/preserve ViewController -> Cell mapping. Minimising coupling _of course._
- - ###### A Proper Demo
- Learn by doing and by looking at what I did.
- - ###### Have Fun
- At the end of the day, this is why i do this.
+- Cocoapods - Integrate this into cocoapods
+- AppleDoc - HTML generated and Xcode integrated appledoc comments
+- ViewController based mapping - Add functionality to easily add/preserve ViewController -> Cell mapping. Minimising coupling _of course._
+- A Proper Demo - Learn by doing and by looking at what I did.
