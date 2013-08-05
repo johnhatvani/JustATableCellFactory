@@ -14,7 +14,7 @@ Just a table cell factory. A lightweight, thin, low coupling table cell factory,
 soon.
 
 ####2: Using
-There is are a few steps to take in order to reap the benefit of JATableCellFactory.
+There is are a few steps to take in order to use JATableCellFactory.
 <br/>3 steps, total.
 
  - ######1 Cells
@@ -46,5 +46,5 @@ The project is in no way complete and here are _some_ of the things i plan on do
 
 - Cocoapods - Integrate this into cocoapods
 - AppleDoc - HTML generated and Xcode integrated appledoc comments
-- ViewController based mapping - Add functionality to easily add/preserve ViewController -> Cell mapping. Minimising coupling _of course._
+- ViewController based mapping - Add functionality to easily add/preserve ViewController -> Cell mapping.
 - A Proper Demo - Learn by doing and by looking at what I did.
