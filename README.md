@@ -11,10 +11,10 @@ Just a table cell factory. A lightweight, thin, low coupling table cell factory,
 
 ####1: Get
 
-soon.
+Soon.
 
 ####2: Using
-There is are a few steps to take in order to use JATableCellFactory.
+There are a few steps to take in order to use JATableCellFactory.
 <br/>3 steps, total.
 
  - ######1 Cells
@@ -29,7 +29,7 @@ There is are a few steps to take in order to use JATableCellFactory.
  `JAMapping` is a simple class with one function
  	- Map a Model `Class` to a cell `Class`<br />
  	`mappingFromModelClass:(Class)objectClass toCellClass:(Class)cellClass;`
- 	- Its worth mentioning: ` NSAssert(NO, @"Cell class NEEDS to be a UITableViewCell Subclass");`
+ 	- It's worth mentioning: ` NSAssert(NO, @"Cell class NEEDS to be a UITableViewCell Subclass");`
  	- One more thing; adding the mapping into the factory <br />
  	`addObjectMapping:(JAMapping *)m`
  	
@@ -42,9 +42,9 @@ There is are a few steps to take in order to use JATableCellFactory.
 	`return [cellClass heightFromObject:modelObject atIndexPath:indexPath];`
 
 ####3: TODO's
-The project is in no way complete and here are _some_ of the things i plan on doing before 1.0
+The project is in no way complete and here are _some_ of the things I plan on doing before 1.0
 
 - Cocoapods - Integrate this into cocoapods
 - AppleDoc - HTML generated and Xcode integrated appledoc comments
-- ViewController based mapping - Add functionality to easily add/preserve ViewController -> Cell mapping.
+- View Controller based mapping - Add functionality to easily add/preserve ViewController -> Cell mapping.
 - A Proper Demo - Learn by doing and by looking at what I did.
